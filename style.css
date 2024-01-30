@@ -1,0 +1,232 @@
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Resets */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+   body {
+    font-family: "Roboto", "sans-serif";
+  }
+  
+  .ul .nav-item {
+    list-style-type: none;
+    padding: 0 7px;
+    margin: 0;
+  }
+
+  a{
+    text-decoration: none;
+    
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color:red;
+    font-weight:bold;
+  }
+  
+  .nav-link:hover {
+    color: whitesmoke;
+    padding: 10px;
+    background-color:blue;
+  }
+  .logo{
+    font-size : 2.5rem;
+    font-weight: 700;
+    margin-right: 680px;
+  }
+
+  .fist {
+    color:red;
+  }
+  
+  .sk {
+    padding-left: 50px;
+    color:blue;
+  }
+  
+  .watch {
+    color: red;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0.7;
+  }
+  
+  .ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-item {
+    margin-left: 1rem;
+  }
+
+
+  .home{
+    background-image:url(images/bgwatch.jpg );
+    width: 100%;
+    height: 600px;
+    margin-top: 54px;
+    overflow: hidden;
+    margin-bottom: 70px;
+  }
+
+  .one{
+    position: relative;
+    color: white;
+    top: 80px;
+    left: 150px;
+    font-size: 5rem;
+    font-weight: 300;
+    z-index: 5;
+  }
+
+  #about,#products,#contact{
+    padding-top:30px ;
+    margin-bottom: 70px;
+  }
+
+  h2{
+    color:blue;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .aboutcontent{
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 1px;
+    margin: 30px 400px;
+    padding: 40px 25px 25px;
+    border: 2px groove black; 
+    background-color: #659DBD;
+  }
+
+  #productscontent{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 25px;
+    background-color: #659DBD;
+  }
+  
+  .img{
+    margin: 10px;
+    padding: 10px;
+  }
+ 
+  .img:hover{
+    width: 310px;
+    height: 310px;
+  }
+
+  .contact{
+    text-align: center;
+
+  }
+
+  .contactcontent{
+    background-color: #659DBD;
+    padding: 37px 25px;
+    text-align: center;
+  }
+
+  .form{
+    width:85%;
+    margin:1rem auto;
+  }
+
+  .inputBox{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .inputBox input,textarea{
+    height:3rem;
+    width:48%;
+    padding:0 2rem;
+    margin:1rem 0;
+    font-size: 1.5rem;
+    border:.2rem solid #eee;
+    background:none;
+    text-transform: none;
+  }
+
+  input::placeholder,textarea::placeholder{
+    color:#ccc;
+  }
+
+  textarea{
+    height:15rem;
+    width:100%;
+    padding:1rem;
+    resize: none;
+  }
+
+  .btn:hover{
+    background:#fff;
+    color:#333;
+  }
+
+  .contactcontent .btn{
+    text-align: center;
+    padding: 10px 20px;
+    border: 2px solid blue;
+    background-color: blue;
+    color: white;
+  }
+
+  .foot{
+    text-align: center;
+    background-color: #659DBD;
+    color:white;
+    padding: 10px;
+  }
+
+  .footer{
+    padding: 30px;
+    display: flex;
+    background-color: #659DBD;
+  }
+
+  
+  .ulist{
+    list-style-type: none;
+    padding-left: 20px;
+    font-size: 1.3rem;
+  }
+
+  .list{
+    padding-bottom: 5px;
+  }
+  .list:hover a{
+    background-color: red;
+    color: white;
+    padding: 5px;
+  }
+
+  .list a{
+    color:black;
+    font-weight: 800;
+  }
+
+.footer-icons{
+  background-color: #659DBD;
+  padding-left: 1010px;
+  padding-bottom: 10px;
+}
