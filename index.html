@@ -136,8 +136,11 @@
                 <img src="images/social/youtube.png" style="width: 40px;height: 30px;padding-right: 10px; ">
             </section>
             <hr>
-            <p class="foot">  &copy; 2024 &nbsp; All  Rights  Reserved  by SK Watch &#8986; </p>
+            <p class="foot"> Copyrights &copy; <span id="year"></span> &nbsp; All  Rights  Reserved  by SK Watch &#8986; </p>
         </footer>
+        <script>
+            document.getElementById("year").innerHTML = new Date().getFullYear();
+        </script>
         
     </body>
 </html>
